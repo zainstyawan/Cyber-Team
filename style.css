@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    color: lime;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.terminal {
+    border: 2px solid lime;
+    padding: 20px;
+    display: inline-block;
+    box-shadow: 0 0 20px lime;
+}
+
+button {
+    background: black;
+    color: lime;
+    border: 1px solid lime;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: lime;
+    color: black;
+}
